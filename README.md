@@ -28,7 +28,8 @@ We are using pusher to send and recieve notifications in our project.
 
 Links : https://github.com/pusher
 https://pusher.com/
-https://pusher.com/channels/pricing
+
+Pricing : https://pusher.com/channels/pricing
 
 **4. MailGun**
 Powerful APIs that enable you to send, receive and track email effortlessly.
@@ -70,6 +71,20 @@ https://console.cloud.google.com/
 
 
 ## Android Release 
+
+
+for releasing the application, visit https://play.google.com/apps/publish
+Sign in with the google account 
+Pay the fees to publish on play store
+
+Here is a video which will guide through the process of publishing 
+https://www.youtube.com/watch?v=AWawL5HFn64
+
+Here is a checklist provided by Google. It brings together the processes you should follow to ensure your app is launched successfully.
+https://developer.android.com/distribute/best-practices/launch/launch-checklist. 
+
+You can find more details about the release at https://developer.android.com/studio/publish#publishing-release.
+
 
 
 
