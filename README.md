@@ -69,6 +69,24 @@ https://console.cloud.google.com/
 
 #### Implementation of keys in the app 
 
+Once the resources keys have been received , The pusher, cloudinary, places api keys need to be setup with android studio : 
+This code snippet can be found in android_app/Project/app/src/main/res/values/secret.xml. You may add respective keys at the mentioned places : 
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="cloudinary" >cloudinary://api_key:api_secret@CloudName</string>
+    <string name="pusher_key">"PusherKey"</string>
+    <string name="pusher_cluster">"PusherCluster"</string>
+    <string name="channel_name">"PusherChannelName"</string>
+    <string name="event_name">"PusherEventName"</string>
+    <string name="event_name_2">"PusherEventName2"</string>
+    <string name="places_api">"PlacesApiKey"</string>
+</resources>
+
+```
+
 
 ## Android Release 
 
